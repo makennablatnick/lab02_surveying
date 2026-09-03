@@ -1,56 +1,37 @@
-This readme file was generated on 2026-09-03 by Makenna Blatnick
+This readme file was generated on 2026-09-03
 
-GENERAL INFORMATION
+# GENERAL INFORMATION
 
-Title of Dataset: Lab 02 - Surveying
+## Title of Dataset: Lab 02 - Surveying - Green
 
-Author/Principal Investigator Information
-Name: 
-ORCID:
-Institution: 
-Address: 
-Email: 
+## Contacts:
 
-Author/Associate or Co-investigator Information
-Name: 
-ORCID:
-Institution: 
-Address: 
-Email: 
+Name: Wyatt Conger
+Institution: Colorado School of Mines
+Email: wyatt_conger@mines.edu
 
-Author/Alternate Contact Information
-Name: 
-ORCID:
-Institution: 
-Address: 
-Email: 
+Name: Makenna Blatnick
+Institution: Colorado School of Mines
+Email: makenna_blatnick@mines.edu
 
-Date of data collection: 2026-08-31
+Name: Isaac Peck
+Institution: Colorado School of Mines
+Email: isaac_peck@mines.edu
 
-Geographic location of data collection: Golden, CO, United States of America
+Name: Isidor Børresen-Jankov
+Institution: Colorado School of Mines
+Email: isidor_borresen-jankov@mines.edu
 
-Information about funding sources that supported the collection of the data: 
+## Date of data collection: 2026-09-01
+## Geographic location of data collection: 
+Kafadar Commons, Golden, CO, United States of America
 
+## Information about funding sources that supported the collection of the data: 
+Conducted as a part of the GPGN318 coursework
 
-SHARING/ACCESS INFORMATION
+# DATA & FILE OVERVIEW
 
-Licenses/restrictions placed on the data: 
-
-Links to publications that cite or use the data: 
-
-Links to other publicly accessible locations of the data: 
-
-Links/relationships to ancillary data sets: 
-
-Was data derived from another source?
-If yes, list source(s): 
-
-Recommended citation for this dataset: 
-
-
-DATA & FILE OVERVIEW
-
-File List: <list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description>
+## File List: <list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description>
 
 Relationship between files, if important: 
 
@@ -61,8 +42,7 @@ If yes, name of file(s) that was updated:
 Why was the file updated? 
 When was the file updated? 
 
-
-METHODOLOGICAL INFORMATION
+# METHODOLOGICAL INFORMATION
 
 Description of methods used for collection/generation of data: <include links or references to publications or other documentation containing experimental design or protocols used in data collection>
 
