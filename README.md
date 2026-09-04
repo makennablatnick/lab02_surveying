@@ -6,20 +6,20 @@ This readme file was generated on 2026-09-03
 
 ## Contacts:
 
-Name: Wyatt Conger
-Institution: Colorado School of Mines
+Name: Wyatt Conger,
+Institution: Colorado School of Mines,
 Email: wyatt_conger@mines.edu
 
-Name: Makenna Blatnick
-Institution: Colorado School of Mines
+Name: Makenna Blatnick,
+Institution: Colorado School of Mines,
 Email: makenna_blatnick@mines.edu
 
-Name: Isaac Peck
-Institution: Colorado School of Mines
+Name: Isaac Peck,
+Institution: Colorado School of Mines,
 Email: isaac_peck@mines.edu
 
-Name: Isidor Børresen-Jankov
-Institution: Colorado School of Mines
+Name: Isidor Børresen-Jankov,
+Institution: Colorado School of Mines,
 Email: isidor_borresen-jankov@mines.edu
 
 ## Date of data collection: 2026-09-01
@@ -31,43 +31,50 @@ Conducted as a part of the GPGN318 coursework
 
 # DATA & FILE OVERVIEW
 
-## File List: <list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description>
+## File List:
 
-Relationship between files, if important: 
+### setup_log.ipynb
+- A document summarizing how the grid was set up and how the data was aquired.
 
-Additional related data collected that was not included in the current data package: 
+### Garmin Data.csv
+- produced by GARMIN GPSMAP 67i
+- covers every flag in the grid
+- collected on 09/01/2026 at around 2:30 PM
+- It contains UTM coordinates with meter units
+- The first column attempts to replicate the naming scheme of some other groups for each flag location
+- The second column is each flag in our naming convention
+- The third column represents the zone and band that the UTM coordinates are in
+- The fourth column represents the Easting part of the coordinates
+- the final column represents the Northing part of the coordinates
+- We collected this data as a team
+- The only really problematic part of this data is that the data are missing elevations at each of the locations
 
-Are there multiple versions of the dataset?
-If yes, name of file(s) that was updated: 
-Why was the file updated? 
-When was the file updated? 
+### green.csv
+- Produced by Trimble R10 and the Emlid Reach
+- Covers the green flags (Row 1 in our naming convention)
+- collected on 09/01/2026 at around 3:00 PM
+- it contains UTM coordinates with all units in meters
+- Column 1 represents the location
+    - "BASE" is the well base station
+    - "1" is location A1 and it increments Northward with "5" being location E1
+- Column 2 represents the Easting
+- Column 3 represents the Northing
+- Column 4 represents the elevation (also in meters)
+- We collected this data as a team
+- Only potential problematic part of this data would be the less than 1 cm difference between the R10 and the actual flag location
 
-# METHODOLOGICAL INFORMATION
+### Total_green.csv
+- Produced by Trimble C5 Total Station
+- Covers the green flags (Row 1 in our naming convention)
+- collected on 09/01/2026 at around 3:30 PM
+- it contains UTM coordinates with all units in meters
+- Column 1 represents the location
+   - "E1" is location A1 and it increments North with each point with "E7" being location E1"
+   - Locations "E5" and "E6" both represent location D1, so location "E5" should be ignored
+- Column 2 represents the Easting
+- Column 3 represents the Northing
+- Column 4 represents the elevation (also in meters)
+- We collected this data as a team
+- The only known problems are the one stated above in the column 1 section with the repeat point and the fact that the data skips what would be location E3
+    - It is worth noting that while Column 1 skips what would be location E3, all the green flags are documented
 
-Description of methods used for collection/generation of data: <include links or references to publications or other documentation containing experimental design or protocols used in data collection>
-
-Methods for processing the data: <describe how the submitted data were generated from the raw or collected data>
-
-Instrument- or software-specific information needed to interpret the data: <include full name and version of software, and any necessary packages or libraries needed to run scripts>
-
-Standards and calibration information, if appropriate: 
-
-Environmental/experimental conditions: 
-
-Describe any quality-assurance procedures performed on the data: 
-
-People involved with sample collection, processing, analysis and/or submission: 
-
-
-DATA-SPECIFIC INFORMATION FOR: [FILENAME]
-<repeat this section for each dataset, folder or file, as appropriate>
-
-Number of variables: 
-
-Number of cases/rows: 
-
-Variable List: <list variable name(s), description(s), unit(s) and value labels as appropriate for each>
-
-Missing data codes: <list code/symbol and definition>
-
-Specialized formats or other abbreviations used: 
