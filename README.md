@@ -1,5 +1,7 @@
 This readme file was generated on 2026-09-03
 
+**Updated on 2026-09-05 by Wyatt Conger. Fixed a small error in the Total_green.csv section**
+
 # GENERAL INFORMATION
 
 ## Title of Dataset: Lab 02 - Surveying - Green
@@ -65,12 +67,12 @@ Conducted as a part of the GPGN318 coursework
 
 ### Total_green.csv
 - Produced by Trimble C5 Total Station
-- Covers the green flags (Row 1 in our naming convention)
+- Covers the green flags (Row A in our naming convention)
 - collected on 09/01/2026 at around 3:30 PM
 - it contains UTM coordinates with all units in meters
 - Column 1 represents the location
-   - "E1" is location A1 and it increments North with each point with "E7" being location E1"
-   - Locations "E5" and "E6" both represent location D1, so location "E5" should be ignored
+   - "E1" is location E1 and it increments North with each point with "E7" being location E5"
+   - Locations "E5" and "E6" both represent location E4, so location "E5" should be ignored
 - Column 2 represents the Easting
 - Column 3 represents the Northing
 - Column 4 represents the elevation (also in meters)
